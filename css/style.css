@@ -3,3 +3,68 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* ------HEADER------ */
+header{
+    background-color: yellow;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    max-height: 3rem;
+}
+
+.search_bar{
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.search_bar i{
+    margin-right: 0.5rem;
+}
+
+.search_bar_input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+/* ------MAIN------ */
+main{
+    margin-top: 75px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+
+
+/* ---sidebar--- */
+#sidebar{
+    height: calc(100vh - 75px);
+    background-color: blue;
+    width: 150px;
+}
+
+.top_sidebar, .bottom_sidebar{
+    background-color: green;
+    height: 150px;
+    width: 100%;
+}
+
+
+/* ---content--- */
+#content{
+    background-color: orange;
+    width: calc(100% - 150px);
+    height: calc(100vh - 75px);
+    overflow-y: auto;
+}
